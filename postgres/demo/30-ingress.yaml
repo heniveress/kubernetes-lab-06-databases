@@ -12,7 +12,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: danipostgres.sapi.click
+    - host: henipostgres.sapi.click
       http:
         paths:
           - path: /
@@ -24,4 +24,4 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - danipostgres.sapi.click
+        - henipostgres.sapi.click
